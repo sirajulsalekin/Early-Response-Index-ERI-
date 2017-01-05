@@ -2,7 +2,7 @@
 
 %%%%%%%% Early Response Index: A Statistic to Discover Potential Early Stage Disease Biomarkers  %%%%%%%%
 
-This code implements the ERI algorithm as described in "Early Response Index: A Statistic to Discover Potential Early Stage Disease Biomarkers" by S Salekin et al. 
+This code implements the Early Response Index algorithm. The algorithm discovers potential biomarkers during early stage of disease.
 
 To run the code, open main.m in Matlab, load your gene/protein expression dataset as F x N matrix where F and N corresponds to number of features and number of samples respectively. Assign loaded dataset to the variable named 'Data' and also provide the number of samples in each class.
 
